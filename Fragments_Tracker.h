@@ -30,6 +30,7 @@ using namespace std;
 // additional files
 
 #include "emd.h"
+#include "vot.hpp"
 
 //
 // structs in use
@@ -152,6 +153,7 @@ public:
 	Fragments_Tracker(CvMat* I, Parameters& in_params, ofstream& log_file);
 
 	void Handle_Frame(CvMat* I, char* outwin);
+    void Handle_Frame_challenge(CvMat* I, char* outwin, VOT * vot_io);
 
 	~Fragments_Tracker(void);
 
