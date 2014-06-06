@@ -1,5 +1,13 @@
+FragTrack: Fragments-based Tracking
+-------------------------------------------------------------------------------
 
-FragTrack - Fragments-based Tracking Code
+FragTrack is part of the [Visual Object Tracking Repository](https://github.com/gnebehay/VOTR),
+which aims at providing a central repository for state-of-the-art tracking algorithms that are freely available.
+The source code for this tracker was obtained from its [project website](TODO)
+and extended by a challenge mode.
+The following description was copied literally from the original author.
+
+README
 -----------------------------------------
 
 By: 	Amit Adam
